@@ -1,9 +1,9 @@
 import React from 'react';
 import './Background.css';
 import video1 from '/video1.mp4';
-import image1 from '../../Assets/image1.png';
-import image2 from '../../Assets/image2.png';
-import image3 from '../../Assets/image3.png';
+import image1 from '/image1.png';
+import image2 from '/image2.png';
+import image3 from '/image3.png';
 
 const BackGround = ({ playStatus, heroCount }) => {
   if (playStatus) {
